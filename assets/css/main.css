@@ -2593,10 +2593,6 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #b8bcc2;
 		background-attachment: scroll;
-		/* background-image: url("../../images/bg.jpg");
-		background-position: top left;
-		background-repeat: no-repeat;
-		background-size: 150%; */
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpeg");
 		background-position: top left,							top left;
@@ -2632,8 +2628,15 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+		}
+
+		#header h2 {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.15em;
+			line-height: 1.75em;
+			margin: 0;
 		}
 
 		#header h1 {
