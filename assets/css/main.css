@@ -98,7 +98,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		/* color: #a2a2a2; */
+		color: #1f1815;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -2564,12 +2565,15 @@ input, select, textarea {
 		.work-item h3 {
 			font-size: 1em;
 			margin: 0 0 0.5em 0;
+			font-weight: 700;
+			color: #1f1815;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 0.9em;
 			line-height: 1.5em;
 			margin: 0;
+			color: #3f312c;
 		}
 
 /* Header */
@@ -2692,14 +2696,14 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 8em 4em 4em 2em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin: 2em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
