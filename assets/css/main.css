@@ -123,8 +123,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		/* color: #1f1815; */
+		font-weight: 900;
 	}
 
 	em, i {
@@ -2652,7 +2652,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 0 0;
-			width: 8.25em;
+			width: 10.25em;
 		}
 
 /* Footer */
